@@ -1,5 +1,5 @@
 FROM gcr.io/distroless/java:8
-MAINTAINER Josef (kwart) Cacek <josef.cacek@gmail.com>
+MAINTAINER Shai Kuzi <somemail@gmail.com>
 
 COPY target/simple-syslog-server.jar /simple-syslog-server.jar
 ENTRYPOINT ["/usr/bin/java", "-jar", "/simple-syslog-server.jar"]
