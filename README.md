@@ -1,5 +1,5 @@
 # Simple Syslog Server
-
+ 
 All-in-one implementation of [RFC-5424 Syslog Protocol](http://tools.ietf.org/html/rfc5424) for testing purposes.
 
 The server is based on [syslog4j](http://www.syslog4j.org/) library.
