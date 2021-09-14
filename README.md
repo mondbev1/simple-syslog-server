@@ -1,3 +1,8 @@
+Clone and run 
+```
+docker build -t syslog-server syslog-server-udp .
+docker push ...
+```
 # Simple Syslog Server
  
 All-in-one implementation of [RFC-5424 Syslog Protocol](http://tools.ietf.org/html/rfc5424) for testing purposes.
