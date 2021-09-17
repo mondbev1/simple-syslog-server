@@ -8,7 +8,6 @@ RUN mvn clean package
 # Package stage
 
 FROM gcr.io/distroless/java:8
-ARG JAR_NAME="simple-syslog-server"
 WORKDIR /usr/src/simple-syslog-server
 COPY --from=build /usr/src/simple-syslog-server/target/simple-syslog-server.jar ./simple-syslog-server.jar
 ENTRYPOINT ["java", "-jar", "./simple-syslog-server.jar"]
